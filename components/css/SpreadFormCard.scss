@@ -1,0 +1,36 @@
+.spread-card {
+    margin-bottom: 12px;
+    .spread-card-collapse {
+      border-top: none;
+      ::v-deep.el-collapse-item__header {
+        height: auto;
+        border-bottom: none;
+      }
+      ::v-deep.el-collapse-item__wrap {
+        border-bottom: none;
+        .el-collapse-item__content {
+          padding-top: 16px;
+          padding-bottom: 12px;
+        }
+      }
+      .spread-card-title {
+        font-weight: bold;
+  
+        position: relative;
+        padding-left: 10px;
+        font-weight: 700;
+        color: #303133;
+        font-size: 16px;
+        line-height: 1;
+        &::before {
+          position: absolute;
+          content: '';
+          left: 0;
+          top: 0;
+          width: 6px;
+          height: 16px;
+          background-color: #1b65b9;
+        }
+      }
+    }
+  }
