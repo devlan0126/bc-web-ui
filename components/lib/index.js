@@ -1,10 +1,14 @@
 //  lib/index.js
 import SpreadFormCard from "./SpreadFormCard";
 import SpreadFormPage from "./SpreadFormPage";
+import SpritTable from "./SpritTable";
+import TableCololumsConf from "./TableCololumsConf";
 
 const components = {
   SpreadFormCard,
   SpreadFormPage,
+  SpritTable,
+  TableCololumsConf
 };
 
 const install = function (Vue) {
@@ -19,4 +23,4 @@ const API = {
 };
 export default API;
 
-export { SpreadFormCard, SpreadFormPage };
+export { SpreadFormCard, SpreadFormPage, SpritTable, TableCololumsConf };
