@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <SpreadFormCard title="基本信息" domId="basicInfo">
+    <BcSpreadFormCard title="基本信息" domId="basicInfo">
       <div>SpreadFormCard 基本信息</div>
-    </SpreadFormCard>
-    <SpritTable :headers="headers" :datas="datas" style="width: 600px;"/>
-    <TableCololumsConf style="display: inline-block" :origin-columns="originColumns" v-model="columns" menuId="operate-hosp-index" />
+    </BcSpreadFormCard>
+    <BcSpritTable :headers="headers" :datas="datas" style="width: 600px;"/>
+    <BcTableCololumsConf style="display: inline-block" :origin-columns="originColumns" v-model="columns" menuId="operate-hosp-index" />
     <ul>
       <li v-for="item in columns" :key="item.prop">{{ item.label }}</li>
     </ul>

@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'SpreadFormPage',
+  name: 'BcSpreadFormPage',
   model: {
     prop: 'show',
     event: 'closeAll'

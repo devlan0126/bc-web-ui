@@ -103,7 +103,7 @@ const splitColumns = (columns, rowCnt) => {
 }
 
 export default {
-  name: 'TableCololumsConf',
+  name: 'BcTableCololumsConf',
   model: {
     prop: 'value', // 默认是value
     event: 'input' // 默认是input

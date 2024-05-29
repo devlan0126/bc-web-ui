@@ -15,7 +15,7 @@ const time = new Date().getTime()
 const domId = `spreadCard-${time}`
 
 export default {
-  name: 'SpreadFormCard',
+  name: 'BcSpreadFormCard',
   props: {
     title: {
       type: String,
