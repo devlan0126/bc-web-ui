@@ -234,7 +234,7 @@ export default {
       })
     },
     filter(list) {
-      if (list?.length > 0) {
+      if (list && list.length > 0) {
         return list.filter(ele => ele.checked)
       }
       return []
@@ -242,6 +242,7 @@ export default {
     changeEvent() {
       this.update()
     },
+
     allCheckChange(v) {
       this.isIndeterminate = false
       this.list.forEach(item => {
